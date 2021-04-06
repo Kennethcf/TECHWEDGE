@@ -1,19 +1,25 @@
 {
-  "posts": [
+  "message": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "sdasd",
+      "mobile": "sadasd",
+      "Email": "sdadasd",
+      "message": "asdasd",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "kenneth c f",
+      "mobile": "8105223057",
+      "Email": "kennethcf1@gmail.com",
+      "message": "this is a json database run json-serve --watch db.json\n\nnpm install json-serve",
+      "id": 2
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "Email": "",
+      "message": "",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

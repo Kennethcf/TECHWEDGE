@@ -12,3 +12,11 @@ export class AppComponent {
   message = "";
 
 }
+class data{
+ work(){
+	alert("hello world")
+	}
+}
+
+var d = new data()
+	

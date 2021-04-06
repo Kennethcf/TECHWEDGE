@@ -8,13 +8,24 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <script type="text/javascript">
-function ajax(a,b,c,d){
-	alert(a,b,c,d)
-var xhttp = new XMLHttpRequest();
-xhttp.open("http://localhost:3000/")
-xhttp.send()
-alert("success")
+function auth(a){
+	alert(a)
 }
+
+function update(username,password) {
+  var http = new XMLHttpRequest();
+  http.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    	alert(http.responseText)
+    }
+  };
+  http.open("GET", "http://www.localhost:3000/user?username="+username+"&password="+password, true);
+  http.send();
+
+
+}
+
+
 </script>
 <body>
 

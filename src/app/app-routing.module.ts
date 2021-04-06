@@ -6,7 +6,7 @@ import { FormComponent } from './form/form.component';
 
 
 
-export const routes: Routes = [{path:'about',component:AboutComponent},{path:'product',component:ProductComponent},{path:'form',component:FormComponent},{path:'index',component:AboutComponent}];
+export const routes: Routes = [{path:'about',component:AboutComponent},{path:'product',component:ProductComponent},{path:'form',component:FormComponent},{path:'index',component:AboutComponent},{path:'product/form',component:FormComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
