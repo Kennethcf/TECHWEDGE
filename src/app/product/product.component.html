@@ -1,0 +1,33 @@
+<style type="text/css">
+	body{
+		max-width: 100%
+	}
+	div{
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+		border-color: blue;
+		border:2px;
+		border-style: solid;;
+		padding-left: 10px;
+		padding-bottom:10px; 
+		background-color: #F8F8FF;
+		margin-top: 3px;
+		display: block;
+		font-style: 18px;
+
+	}
+</style>
+
+<h2 style="text-align: center">---products---</h2>
+<div *ngFor="let l of z">
+	<h4>{{l.title}}</h4>
+<span>{{l.period}}</span><br>
+<ul>
+	<li *ngFor="let m of l.features ">{{m}}</li>
+</ul>
+<button style="border:none;height: 40px;color: red;">requst demo</button>
+<br><br>
+</div>
+
+
