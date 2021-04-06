@@ -1,32 +1,14 @@
-<style type="text/css">
-	  .toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: red;
-    color: white;
-    font-weight: 600;
-    padding-left: 15px;
-  }
-  .route span{
-  	margin-left:100px;
 
-  }
-
-</style>
 <div class="toolbar" role="banner">
   <img
     width="150"
     height = "40"
     alt="Angular Logo"
     src="assets/img/logo.png"
+    routerLink="index"
   />
   <nav class="route">
-  <span routerLink="about">About</span><span onclick="window.open('assets/pdf/HMS.pdf')">Brochure</span><span routerLink="product">Product</span>
+  <span routerLink="about">About</span><span onclick="window.open('assets/pdf/HMS.pdf')">Brochure</span><span routerLink="product">Product</span><span routerLink="form">Contact Us</span>
   </nav>
 </div>
 

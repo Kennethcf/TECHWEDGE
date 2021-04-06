@@ -1,0 +1,27 @@
+body{
+		max-width: 100%
+	}
+div{
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+		border-color: blue;
+		border:2px;
+		border-style: solid;;
+		padding-left: 10px;
+		padding-bottom:10px; 
+		background-color: #F8F8FF;
+		margin-top: 3px;
+		display: block;
+		font-size: 20px;
+
+	}
+
+button{
+	border:none;
+	height: 40px;
+	color: red;
+	font-size: 18px;
+	width: 100%;
+	background-color:#D3D3D3;
+}
