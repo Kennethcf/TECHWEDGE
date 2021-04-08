@@ -13,7 +13,7 @@
 	}
 </style>
 
-<div *ngIf="false" id="container">
+<div *ngIf="form" id="container">
 	<h2 align="center"><span style="color:red">---</span>login<span style="color:blue">---</span></h2>
 	<label for=user>Username</label><br>
 	<input [(ngModel)] = username type="text" name="user"><br>
@@ -26,7 +26,7 @@
 </div>
 
 
-<div *ngIf="true"id=dashboard>
+<div *ngIf="login"id=dashboard>
 	<h2 align="center"><span style="color:red">---</span>dashboard<span style="color:blue">---</span></h2>
 	<div id=nav align="center">
 	<span (click) = "message()">Message</span><span>Add Products</span><span>Add Admin</span>
