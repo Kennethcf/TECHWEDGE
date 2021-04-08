@@ -16,7 +16,7 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  work(username="terence",password="terence"){
+  work(){
     var http = new XMLHttpRequest();
   http.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200 || this.status == 201) {

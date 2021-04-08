@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { ProductComponent } from './product/product.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormComponent } from './form/form.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormComponent } from './form/form.component';
     AboutComponent,
     ProductComponent,
     FooterComponent,
-    FormComponent
+    FormComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

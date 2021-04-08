@@ -1,0 +1,50 @@
+<style>
+	#nav{
+		font-size: 25px;
+		font-weight: 800;
+		margin-top: 40px;
+	}
+	#nav span{
+		padding-left: 100px;
+
+	}
+	#target {
+		font-size: 20px;
+	}
+</style>
+
+<div *ngIf="false" id="container">
+	<h2 align="center"><span style="color:red">---</span>login<span style="color:blue">---</span></h2>
+	<label for=user>Username</label><br>
+	<input [(ngModel)] = username type="text" name="user"><br>
+	<label for=passowrd>Password</label><br>
+	
+	<input [(ngModel)] = password type="password" name="password"><br>
+	<button (click)="auth()">login</button>
+
+
+</div>
+
+
+<div *ngIf="true"id=dashboard>
+	<h2 align="center"><span style="color:red">---</span>dashboard<span style="color:blue">---</span></h2>
+	<div id=nav align="center">
+	<span (click) = "message()">Message</span><span>Add Products</span><span>Add Admin</span>
+	</div>
+
+</div>
+
+
+<div *ngIf = "tar" id=target align="center">
+	<h2 align="center"><span style="color:red">---</span>message<span style="color:blue">---</span></h2>
+
+	<div *ngFor="let i of display">
+	<label for="name">name: </label>
+	<span name=name>{{i.name}}</span><br>
+	<label for="mobile">mobile: </label>
+	<span name="mobile">{{i.mobile}}</span><br>
+	<label for="message">message: </label>	
+	<span name=message>{{i.message}}</span><br>
+	<br>
+	</div>
+</div>

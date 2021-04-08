@@ -7,9 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'techwadge';
-  names = "";
-  mobile = "";
-  message = "";
+  login = false
 
 }
 class data{

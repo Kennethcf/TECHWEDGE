@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./img.component.css']
 })
 export class ImgComponent implements OnInit {
-
+	public img = true
   constructor() { }
 
   ngOnInit(): void {
