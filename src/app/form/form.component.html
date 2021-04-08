@@ -1,22 +1,24 @@
 
 <h2 style="text-align: center;"><span style="color: red">---</span>Contact Us<span style="color:blue">---</span></h2>
-<div id="container">
-<label for="name">
-	Name
-</label>
-<input [(ngModel)] = "name" type="text" name="name">
-<label for="number">
-	Mobile 
-</label>
-<input [(ngModel)] = "mobile" type="text" name="number">
-<label for="Email">
-	Email
-</label>
-<input [(ngModel)] = "Email" type="text" name="Email">
-<label for="message">
-	Message
-</label>
-<textarea [(ngModel)] = "message" name=message></textarea>
-<button (click)="work()">sumbit</button>
-
+<div class="container">
+<div class="form-floating mb-3">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">name</label>
 </div>
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">mobile</label>
+</div>
+<div class="form-floating mb-3">
+  <textarea id="floatingInput" placeholder="message"></textarea>
+  
+</div>
+<button (click)="work()" class="btn-primary success">sumbit</button>
+</div>
+
+
+

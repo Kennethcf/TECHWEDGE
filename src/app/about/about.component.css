@@ -1,3 +1,16 @@
 .text{
 align-items: center;text-align: center; width:50%;margin-left: auto;margin-right: auto; font-size: 18px;font-weight: 600;padding: 4px;letter-spacing: 1px;font-family: Arial, Helvetica, sans-serif;
 }
+
+	#nav{
+		font-size: 25px;
+		font-weight: 800;
+		margin-top: 40px;
+	}
+	#nav span{
+		padding-left: 100px;
+
+	}
+	#target {
+		font-size: 20px;
+	}

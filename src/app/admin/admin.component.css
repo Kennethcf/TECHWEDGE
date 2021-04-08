@@ -1,27 +1,32 @@
-	#container{
+	.container{
 		max-width: 100%;
-		
 		border:2px;
 		height: 300px;
-		width:30%;
-		margin-left:auto;
-		margin-right: auto;
+		width: 30%;
 		font-size: 30px;
-		background-color: #F0FFF0;
-		align-self: center;
-		align-items: center;
-		text-align: center;
+
+
 		margin-bottom: 100px;
+}
+	.container input{
+		width: 60%;
 	}
-	#container input{
-		width: 50%;
-		margin-top: 10px;
-		height: 20px;
-	}
-	#container button{
-		width: 51%;
-		height:30px;
-		color: green;
-		background-color: #00FFFF;
+	.container button{
+		width: 40%;
+		
 		margin-top:20px;
+
+	}
+
+		#nav{
+		font-size: 25px;
+		font-weight: 800;
+		margin-top: 40px;
+	}
+	#nav span{
+		padding-left: 100px;
+
+	}
+	#target {
+		font-size: 20px;
 	}

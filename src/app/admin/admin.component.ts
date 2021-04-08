@@ -29,7 +29,6 @@ export class AdminComponent implements OnInit {
   this.login = true;
   this.form = false;
 
-  alert("sucess")
 
   }
   else

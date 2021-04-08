@@ -20,39 +20,47 @@
       "Email": "",
       "message": "",
       "id": 3
+    },
+    {
+      "name": "kenneth",
+      "mobile": "8105223057",
+      "Email": "kennethcf1@gmail.com",
+      "message": "this is a database created with json",
+      "id": 4
     }
   ],
-  
-
-
-  "admin" :[{
-    "username":"kenneth",
-    "password":"1234",
-    "login":true
-
-  }],
-
-  "product" :  [
-{
-  "title":"Clinics/Polyclinics",
-  "period":"5 Users (monthly subscription)",
-  "features" :["Quick to use cloud-hosted application","Record your appointments and update diagnosis/prescription, Lab, Admin reports / dashboard"]
-},
-
-{
-  "title":"Nursing Homes",
-  "period":"10 Users, Multi-location (monthly subscription)",
-  "features" :["Quick to use cloud-hosted application"," Record your appointments and update diagnosis/prescription, Lab, Admin reports/dashboard"]
-},
-{
-  "title":"Hospitals",
-  "period":"Enterprise - Multi-location",
-  "features" :["Cloud hosted application with Appointment"," Clinical Diagnosis, Lab & Pharmacy integrated to clinical diagnosis","Insurance-based Billing & Admin Dashboard/Reports"]
-}
-
-
-
-
-
-]
+  "admin": [
+    {
+      "username": "kenneth",
+      "password": "1234",
+      "login": true
+    }
+  ],
+  "product": [
+    {
+      "title": "Clinics/Polyclinics",
+      "period": "5 Users (monthly subscription)",
+      "features": [
+        "Quick to use cloud-hosted application",
+        "Record your appointments and update diagnosis/prescription, Lab, Admin reports / dashboard"
+      ]
+    },
+    {
+      "title": "Nursing Homes",
+      "period": "10 Users, Multi-location (monthly subscription)",
+      "features": [
+        "Quick to use cloud-hosted application",
+        " Record your appointments and update diagnosis/prescription, Lab, Admin reports/dashboard"
+      ]
+    },
+    {
+      "title": "Hospitals",
+      "period": "Enterprise - Multi-location",
+      "features": [
+        "Cloud hosted application with Appointment",
+        " Clinical Diagnosis, Lab & Pharmacy integrated to clinical diagnosis",
+        "Insurance-based Billing & Admin Dashboard/Reports"
+      ]
+    }
+  ]
 }

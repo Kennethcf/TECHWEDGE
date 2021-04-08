@@ -1,13 +1,13 @@
 {{product()}}
 
 <h2 style="text-align: center"><span style="color:red">---</span>Products<span style="color: blue">---</span></h2>
-<div *ngFor="let l of display">
+<div *ngFor="let l of display" class="col">
 	<h4>{{l.title}}</h4>
 <span>{{l.period}}</span><br>
 <ul>
 	<li *ngFor="let m of l.features ">{{m}}</li>
 </ul>
-<button routerLink="form">Request Demo</button>
+<button class=btn-primary routerLink="form">Request Demo</button>
 <br><br>
 </div>
 

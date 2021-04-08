@@ -2,9 +2,7 @@ body{
 		max-width: 100%
 	}
 div{
-		margin-left: auto;
-		margin-right: auto;
-		width: 30%;
+
 		border-color: blue;
 		border:2px;
 		border-style: solid;;
