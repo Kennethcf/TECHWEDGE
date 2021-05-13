@@ -27,11 +27,37 @@
       "Email": "kennethcf1@gmail.com",
       "message": "this is a database created with json",
       "id": 4
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "Email": "",
+      "message": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "Email": "",
+      "message": "",
+      "id": 6
+    },
+    {
+      "name": "dasd",
+      "mobile": "asdasd",
+      "Email": "asdas",
+      "message": "asdasdas",
+      "id": 7
     }
   ],
   "admin": [
     {
       "username": "kenneth",
+      "password": "1234",
+      "login": true
+    },
+    {
+      "username": "francis",
       "password": "1234",
       "login": true
     }

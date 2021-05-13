@@ -11,6 +11,7 @@ import { ProductComponent } from './product/product.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormComponent } from './form/form.component';
 import { AdminComponent } from './admin/admin.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AdminComponent } from './admin/admin.component';
     ProductComponent,
     FooterComponent,
     FormComponent,
-    AdminComponent
+    AdminComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
